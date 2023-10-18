@@ -7,7 +7,7 @@
 <p align="center">Bake'O is a cake recipe website. Made with Vite, Bootstrap 5, Saas, and Javascript.</p>
 <div align="center">
 
-### How to Run
+How to Run
 
 1. Clone this repository
 
