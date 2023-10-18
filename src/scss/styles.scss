@@ -53,6 +53,15 @@ body {
   background-position: center;
 }
 
+.banner-waffles {
+  width: 100%;
+  height: 362px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner-waffles.webp);
+  background-size: cover;
+  background-position: center;
+}
+
 .banner-challange {
   width: 100%;
   height: 362px;
@@ -176,6 +185,11 @@ footer {
   padding: 20px;
   border-radius: 15px;
   background-color: white;
+}
+
+.gschallange iframe {
+  width: 100%;
+  height: 400px;
 }
 
 .about-content {
