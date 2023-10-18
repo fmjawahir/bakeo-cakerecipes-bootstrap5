@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bake'O</title>
+
+    <script type="module" src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="line"></div>
+    <header>
+      <nav class="navbar navbar-expand-lg py-4">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./img/logo.webp"
+              alt="Logo"
+              width="40"
+              height="40"
+              class="d-inline-block"
+            />
+            Bake'O
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto me-3">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About Us</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./Category/breakfast-delight.html"
+                      >Breakfast Delights</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Sweet Treats</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Family Favorites</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Other Recipes</a>
+                  </li>
+                </ul>
+              </li>
+              <a class="nav-link active" aria-current="page" href="forum.html"
+                >Forum</a
+              >
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+            <a class="btn btn-primary" href="challange.html" role="button"
+              >Join Challange</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid banner">
+        <div class="container banner-content col-lg-6">
+          <div class="text-center">
+            <p class="fs-1">
+              Get inspired, cook with passion and enjoy unforgettable moments at
+              the table
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container col-md-12 introforum">
+      <p class="fs-5">
+        &#128075; Welcome to our community forum! Here, you'll find a treasure
+        trove of tips and tricks to enhance your baking skills. Share
+        mouthwatering photos of your creations and delight us with your baking
+        experiences. Unleash your creativity and showcase your innovative ideas
+        for unique and stunning cakes. Engage in lively discussions to address
+        any challenges you may face and discover effective solutions from fellow
+        baking enthusiasts.
+      </p>
+      <br />
+      <p class="fs-6">Forum Rules:</p>
+      <ol>
+        <li>
+          Be respectful: Treat others with respect and courtesy. Avoid using
+          offensive language or insulting others.
+        </li>
+        <li>
+          No spam: Avoid posting repetitive or irrelevant content. Keep the
+          discussions focused on cake recipes and related topics.
+        </li>
+        <li>
+          No harassment or bullying: Any form of harassment, bullying, or
+          inappropriate behavior will not be tolerated. Respect the privacy and
+          boundaries of others.
+        </li>
+        <li>
+          No politics or religion: Keep discussions focused on cake recipes and
+          related topics. Avoid bringing up political or religious discussions.
+        </li>
+        <li>
+          Follow moderator instructions: Follow any instructions or guidelines
+          provided by the forum moderators to maintain order and a pleasant
+          community environment.
+        </li>
+      </ol>
+    </div>
+
+    <div class="container col-md-12 disqus">
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () {
+          this.page.url = forum.html;
+          this.page.identifier = forumdisqus;
+        };
+
+        (function () {
+          var d = document,
+            s = d.createElement("script");
+          s.src = "https://bakeo.disqus.com/embed.js";
+          s.setAttribute("data-timestamp", +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript
+        >Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript"
+          >comments powered by Disqus.</a
+        ></noscript
+      >
+    </div>
+
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mx-5 mb-md-0 text-body-secondary"
+          >© 2023 Cakrabuana - infinitelearning</span
+        >
+      </div>
+      <ul class="nav col-md-4 mx-5 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-twitter"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script id="dsq-count-scr" src="//bakeo.disqus.com/count.js" async></script>
+  </body>
+</html>

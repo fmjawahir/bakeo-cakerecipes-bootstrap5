@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bake'O</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="line"></div>
+    <header>
+      <nav class="navbar navbar-expand-lg py-4">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./img/logo.webp"
+              alt="Logo"
+              width="40"
+              height="40"
+              class="d-inline-block"
+            />
+            Bake'O
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto me-3">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About Us</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./Category/breakfast-delight.html"
+                      >Breakfast Delights</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Sweet Treats</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Family Favorites</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Other Recipes</a>
+                  </li>
+                </ul>
+              </li>
+              <a class="nav-link" href="forum.html">Forum</a>
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </div>
+            <a class="btn btn-primary" href="challange.html" role="button"
+              >Join Challange</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid banner-mail">
+        <div class="container banner-content col-lg-6">
+          <div class="text-center">
+            <p class="fs-1">
+              Let us know about your experience using this website or provide
+              feedback for improvement. We appreciate every feedback you give
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <form action="https://formsubmit.co/sibuatan@poskini.my.id" method="post">
+      <input type="hidden" name="_captcha" value="false" />
+      <input
+        type="hidden"
+        name="_next"
+        value="http://localhost:8080/contact-success.html"
+      />
+      <div class="container col-md-12 formct">
+        <div class="mb-3">
+          <label for="inputName"> Full Name </label>
+          <input type="text" name="fullname" class="form-control" required />
+        </div>
+        <div class="mb-3">
+          <label for="inputEmail">Email address</label>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            id="inputEmail"
+            aria-describedby="emailHelp"
+            required
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="inputMsg">Message</label>
+          <textarea
+            type="text"
+            name="message"
+            class="form-control"
+            id="inputFormControlTextarea"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mx-5 mb-md-0 text-body-secondary"
+          >© 2023 Cakrabuana - infinitelearning</span
+        >
+      </div>
+      <ul class="nav col-md-4 mx-5 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-twitter"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bake'O</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="line"></div>
+    <header>
+      <nav class="navbar navbar-expand-lg py-4">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./img/logo.webp"
+              alt="Logo"
+              width="40"
+              height="40"
+              class="d-inline-block"
+            />
+            Bake'O
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto me-3">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About Us</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./Category/breakfast-delight.html"
+                      >Breakfast Delights</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Sweet Treats</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Family Favorites</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Other Recipes</a>
+                  </li>
+                </ul>
+              </li>
+              <a class="nav-link" href="forum.html">Forum</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+            <a class="btn btn-primary" href="challange.html" role="button"
+              >Join Challange</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid banner-challange">
+        <div class="container banner-content col-lg-6">
+          <div class="text-center">
+            <p class="fs-1">
+              Take part in our Cook of the Month challenge and demonstrate your
+              cooking creativity
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container col-md-12 form-challange">
+      <form
+        action="https://script.google.com/macros/s/AKfycby3hIYlD3v2pZgMOB5cLi7gfR1atNruCovn9rJ5RxVG8gSgJCqrSP_oK4-VDIxBxES-/exec"
+        method="post"
+        name="challangeForm"
+        id="challangeForm"
+      >
+        <div class="mb-3">
+          <label for="date">Date</label>
+          <input
+            type="date"
+            class="form-control"
+            id="date"
+            name="date"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="instagramacc">Instagram Account</label>
+          <input
+            type="text"
+            class="form-control"
+            id="instagramacc"
+            name="instagramacc"
+            placeholder="@yourusername"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="foodname">Food Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="foodname"
+            name="foodname"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="photourl">Photo URL of Your Work</label>
+          <input
+            type="url"
+            class="form-control"
+            id="photourl"
+            name="photourl"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="region">Region</label>
+          <select class="form-select" id="region" name="region" required>
+            <option value="">Choose...</option>
+            <option value="Aceh">Aceh</option>
+            <option value="Bali">Bali</option>
+            <option value="Banten">Banten</option>
+            <option value="Bengkulu">Bengkulu</option>
+            <option value="Gorontalo">Gorontalo</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Jambi">Jambi</option>
+            <option value="Jawa Barat">Jawa Barat</option>
+            <option value="Jawa Tengah">Jawa Tengah</option>
+            <option value="Jawa Timur">Jawa Timur</option>
+            <option value="Kalimantan Barat">Kalimantan Barat</option>
+            <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+            <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+            <option value="Kalimantan Timur">Kalimantan Timur</option>
+            <option value="Kalimantan Utara">Kalimantan Utara</option>
+            <option value="Kepulauan Bangka Belitung">
+              Kepulauan Bangka Belitung
+            </option>
+            <option value="Kepulauan Riau">Kepulauan Riau</option>
+            <option value="Lampung">Lampung</option>
+            <option value="Maluku">Maluku</option>
+            <option value="Maluku Utara">Maluku Utara</option>
+            <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+            <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+            <option value="Papua">Papua</option>
+            <option value="Papua Barat">Papua Barat</option>
+            <option value="Riau">Riau</option>
+            <option value="Sulawesi Barat">Sulawesi Barat</option>
+            <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+            <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+            <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+            <option value="Sulawesi Utara">Sulawesi Utara</option>
+            <option value="Sumatera Barat">Sumatera Barat</option>
+            <option value="Sumatera Selatan">Sumatera Selatan</option>
+            <option value="Sumatera Utara">Sumatera Utara</option>
+            <option value="Yogyakarta">Yogyakarta</option>
+          </select>
+        </div>
+        <div id="button">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container col-md-12 gschallange">
+      <p class="fs-5">
+        Participants who have submitted and taken part in the challenge
+      </p>
+      <iframe
+        class="w-100 h-200"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQIkCFq94Wm-CLREajOwq6dsjJZaH5fbALsK1xAeissmHsK6xXcO2bYofdawtlGoK_1cIjANc5-lpgP/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+      ></iframe>
+    </div>
+
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mx-5 mb-md-0 text-body-secondary"
+          >© 2023 Cakrabuana - infinitelearning</span
+        >
+      </div>
+      <ul class="nav col-md-4 mx-5 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-twitter"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

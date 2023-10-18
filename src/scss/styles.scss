@@ -1,2 +1,254 @@
-// Import all of Bootstrap's CSS
+$primary: #663a14;
+$secondary: #fad7b8;
+$accent: #d56c10;
+$text: #0e0701;
+$background: #fce7d4;
+
 @import "bootstrap/scss/bootstrap";
+
+body {
+  background-color: $background;
+}
+
+.navbar-brand {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+
+.line {
+  width: 100%;
+  height: 30px;
+  background-color: $secondary;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: $background;
+}
+
+.dropdown-menu {
+  background-color: $secondary;
+}
+
+.dropdown-item:hover {
+  background-color: $primary;
+  color: white;
+}
+
+.banner {
+  width: 100%;
+  height: 362px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-mail {
+  width: 100%;
+  height: 362px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner-mail.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-challange {
+  width: 100%;
+  height: 362px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner-challange.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-about {
+  width: 100%;
+  height: 362px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner-office.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardA-title {
+  padding-top: 75px;
+}
+
+.card-popular {
+  margin-bottom: 15px;
+}
+
+.img-card-popular {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-card-recent {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.challange-bulanan {
+  margin-top: 220px;
+  display: flex;
+  align-items: center;
+  background-color: $secondary;
+  color: $text;
+  padding-left: 30px;
+  max-height: 300px;
+  border-radius: 10px;
+  border: 3px solid #e5ccb6;
+}
+
+.imgchef-container {
+  margin-left: auto;
+}
+
+.imgchef-container img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1500px) {
+  .imgchef-container {
+    display: none;
+  }
+}
+
+.cardB-title {
+  padding-top: 90px;
+}
+
+.category-title {
+  padding-top: 40px;
+}
+
+.card {
+  background-color: #e5ccb6;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: $secondary;
+}
+
+.disqus {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.introforum {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.formct {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.form-challange {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.gschallange {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.about-content {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.about-map {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.about-map iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.articlesec-one {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.articlesec-two {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.articlesec-three {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.articlesec-four {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: $accent;
+  border-right: $background 7px solid;
+}
+
+.articlesec-four h2 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.articlesec-five {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: $primary;
+  color: white;
+}
+
+.embedyt {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.embedyt iframe {
+  width: 100%;
+  height: 720px;
+}
